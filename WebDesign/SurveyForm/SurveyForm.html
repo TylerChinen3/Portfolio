@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">	
+		<title>Survey Form</title>
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+
+<body>
+	<h1 id="title">About you! :D</h1>
+		<p id="description">Survey of gaming information</p>
+			<form id="survey-form">
+				<fieldset>
+					<label id="name-label" for="name">Name<input required id="name" type="text" placeholder="Enter your gamertag" /></label>
+					<label id="email-label" for="email" >Email<input required id="email" type="email" placeholder="Enter your email" /></label>
+					<label id="number-label" for="number">Age(optional)<input min="13" max="120" type="number" id="number" placeholder="Age" /></label>
+				</fieldset>
+				<fieldset>
+					<label for="dropdown">Pick a color:
+						<select id="dropdown" name="color">
+							<option value="">(Pick one)</option>
+							<option value="1">Red</option>
+							<option value="2">Blue</option>
+							<option value="3">Yellow</option>
+							<option value="4">Green</option>
+							<option value="5">Pink</option>
+							<option value="6">Black</option>
+							<option value="7">White</option>
+							<option value="8">Silver</option>
+							<option value="9">Gold</option>
+							<option value="10">Purple</option>
+						</select>
+					</label>
+				</fieldset>
+				<fieldset>
+					<label for="team">Pick your team:</label>
+					<label for="pc">
+						<input value="1" id="pc" type="radio" name="team" class="inline" />PC Master Race</label>
+					<label for="playstation">
+						<input value="2" id="playstation" type="radio" name="team" class="inline" />Playstation</label>
+					<label for="xbox">
+						<input value="3" id="xbox" type="radio" name="team" class="inline" />Xbox</label>
+				</fieldset>
+				<fieldset>
+					<label for="food">Pick the foods you like:</label>
+					<label for="pizza"><input value="1" id="pizza" type="checkbox" class="inline" name="food" />Pizza</label>
+					<label for="cheeseburger"><input value="2" id="cheeseburger" type="checkbox" class="inline" name="food" />Cheeseburger</label>
+					<label for="nuggets"><input value="3" id="nuggets" type="checkbox" class="inline" name="food" />Chicken Nuggets</label>
+					<label for="spaghetti"><input value="4" id="spaghetti" type="checkbox" class="inline" name="food" />Spaghetti and Meatballs</label>
+					<label for="pho"><input value="5" id="pho" type="checkbox" class="inline" name="food" />Pho</label>
+					<label for="ramen"><input value="6" id="ramen" type="checkbox" class="inline" name="food" />Ramen</label>
+					<label for="steak"><input value="7" id="steak" type="checkbox" class="inline" name="food" />Steak and Mashed Potatoes</label>
+				</fieldset>
+				<fieldset>
+					<label for="games">List your favorite games:
+						<textarea id="games" name="games" rows="5" cols="30" placeholder="Stardew Valley, CS:GO..."></textarea>
+					</label>
+				</fieldset>
+				<input type="submit" id="submit" name="submit">
+			</form>
+		</body>
+		</html>

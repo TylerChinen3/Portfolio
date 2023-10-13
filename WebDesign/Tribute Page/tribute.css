@@ -1,0 +1,25 @@
+* {
+	background-color: #d9d9d9;
+}
+
+h1, h2, h3, p, li, figcaption {
+	font-family: Arial;
+}
+
+h1, h2, figcaption {
+	text-align: center;
+}
+
+section {
+	padding: 10px;
+	margin: 5px 10px;
+}
+
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	justify-content: center;
+	margin: 0 auto;
+}

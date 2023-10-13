@@ -1,0 +1,33 @@
+* {
+	font-family: arial, sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 97%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: gray;
+	opacity: 76%;
+	padding: 25px;
+	
+}
+
+.header-img {
+	height: 75px;
+	width: 75px;
+}
+
+.logo {
+	height: 100px;
+	width: 200px;
+}
+
+@media (max-width: 500px) {
+	body {
+		flex-wrap: wrap;
+	}
+}
