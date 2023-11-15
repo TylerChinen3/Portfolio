@@ -6,7 +6,9 @@
     
     <!--google fonts to add fonts to customize website-->
     
-    <link rel="stylesheet" href="\styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <script src="https://kit.fontawesome.com/1b5a96d6fa.js" crossorigin="anonymous"></script>
     <title>Tyler's Portfolio Website</title>
 </head>
 
@@ -34,13 +36,13 @@
     <h1 class="section__title section__title--intro">
         Hi I am <strong>Tyler</strong>
     </h1>
-    <p class="section__subtitle section__subtitle-intro">back-end dev</p>
+    <p class="section__subtitle section__subtitle--intro">back-end dev</p>
     <img src="" alt="" class="intro__img">
    </section>
 
 
    <section class="my-services" id="my-services">
-    <h2 class="section__title section__title-services">What I do</h2>
+    <h2 class="section__title section__title--services">What I do</h2>
     <div class="services">
         <div class="service">
             <h3></h3>
@@ -64,36 +66,76 @@
 
    <section class="about-me" id="about">
     <h2 class="section__title section__title--about">Who I Am</h2>
-    <p class="section__subtitle section__subtitle--about"></p>
+    <p class="section__subtitle section__subtitle--about">Subtitle Here</p>
 
     <div class="about-me__body">
-        <p></p>
-        <p></p>
+        <p>Hello, I'm Tyler, a novice programmer. I've just started my journey, and I'm passionate about transforming ideas into functional solutions through the power of code. Currently, I've been exploring languages like Python and HTML and relishing the problem-solving process.</p>
+        <p>I'm eager to learn, collaborate, and contribute to the programming community while continually expanding my skills and making a positive impact with code. Let's connect, learn, and code together on this exciting journey!</p>
     </div>
 
-    <img src="" alt="">
+    <img src="" alt="" class="about-me__img">
    </section>
 
 
    <section class="my-work" id="work">
-    <h2 class="section__title"></h2>
-    <p class="section__subtitle"></p>
+    
+    <h2 class="section__title section__title--work">My Work</h2>
+    <p class="section__subtitle section__subtitle--work">A collection of my Work</p>
 
+    <div class="portfolio">
+        <a href="\Portfolio-item1.html" class="portfolio__item">
+            <img src="" alt="" class="portfolio__img">
+        </a>
+    </div>
+    
     <div class="portfolio">
         <a href="a" class="portfolio__item">
             <img src="" alt="" class="portfolio__img">
         </a>
     </div>
-   </section>
+    
+    <div class="portfolio">
+        <a href="a" class="portfolio__item">
+            <img src="" alt="" class="portfolio__img">
+        </a>
+    </div>
+   
+    <div class="portfolio">
+        <a href="a" class="portfolio__item">
+            <img src="" alt="" class="portfolio__img">
+        </a>
+    </div>
+   
+    </section>
 
-   <footer>
+   <footer class="footer">
     <a href="" class="footer--link">email</a>
     <ul class="social-list">
-        <li class="social-list__item"><a class="social-link__link" href=""></a></li>
-        <li class="social-list__item"><a class="social-link__link" href=""></a></li>
-        <li class="social-list__item"><a class="social-link__link" href=""></a></li>
-        <li class="social-list__item"><a class="social-link__link" href=""></a></li>
+        <li class="social-list__item">
+            <a class="social-link__link" href="https://github.com/TylerChinen3/Portfolio">
+                <i class="fa-brands fa-github" style="color: #8e4893"></i>
+            </a></li>
+        
+        <li class="social-list__item">
+            <a class="social-link__link" href="">
+                <i class="fa-brands fa-square-x-twitter" style="color: #8e4893;"></i>
+            </a></li>
+        
+        <li class="social-list__item">
+            <a class="social-link__link" href="">
+                <i class="fa-brands fa-spotify" style="color: #8e4893"></i>
+            </a></li>
+        
+        <li class="social-list__item">
+            <a class="social-link__link" href="">
+                <i class="fa-brands fa-medium" style="color: #8e4893"></i>
+            </a></li>
     </ul>
    </footer>
+
+
+   <script src="/Portfolio/index.js"></script>
+
+
 </body>
 </html>
